@@ -1,0 +1,18 @@
+[submodule "purefun"]
+	path = purefun
+	url = https://github.com/tonivade/purefun
+[submodule "purecheck"]
+	path = purecheck
+	url = https://github.com/tonivade/purecheck
+[submodule "purecfg"]
+	path = purecfg
+	url = https://github.com/tonivade/purecfg
+[submodule "puredbc"]
+	path = puredbc
+	url = https://github.com/tonivade/puredbc
+[submodule "zeromock"]
+	path = zeromock
+	url = https://github.com/tonivade/zeromock
+[submodule "pure-todo-backend"]
+	path = pure-todo-backend
+	url = https://github.com/tonivade/pure-todo-backend
