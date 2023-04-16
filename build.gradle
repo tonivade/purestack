@@ -1,4 +1,8 @@
 
+tasks.register('clean') {
+    dependsOn gradle.includedBuilds*.task(':clean')
+}
+
 tasks.register('build') {
     dependsOn gradle.includedBuilds*.task(':build')
 }
