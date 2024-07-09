@@ -16,3 +16,6 @@
 [submodule "pure-todo-backend"]
 	path = pure-todo-backend
 	url = https://github.com/tonivade/pure-todo-backend
+[submodule "purejson"]
+	path = purejson
+	url = https://github.com/tonivade/purejson.git
