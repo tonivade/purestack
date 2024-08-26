@@ -6,3 +6,11 @@ tasks.register('clean') {
 tasks.register('build') {
     dependsOn gradle.includedBuilds*.task(':build')
 }
+
+tasks.register('publishToMavenLocal') {
+    gradle.includedBuilds.forEach {
+      if (it.name != 'pure-todo-backend') {
+        dependsOn it.task(':publishToMavenLocal')
+      }
+    }
+}
