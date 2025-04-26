@@ -19,3 +19,6 @@
 [submodule "purejson"]
 	path = purejson
 	url = https://github.com/tonivade/purejson.git
+[submodule "pure-bricks"]
+	path = pure-bricks
+	url = https://github.com/tonivade/pure-bricks.git
